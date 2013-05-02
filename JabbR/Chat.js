@@ -1,4 +1,4 @@
-﻿/// <reference path="Scripts/jquery-1.7.js" />
+/// <reference path="Scripts/jquery-1.7.js" />
 /// <reference path="Scripts/jQuery.tmpl.js" />
 /// <reference path="Scripts/jquery.cookie.js" />
 /// <reference path="Chat.ui.js" />
@@ -924,7 +924,7 @@
         // Initialize the ui, passing the user preferences
         ui.initialize(state.preferences);
 
-        ui.addMessage('Welcome to ' + originalTitle, 'notification');
+        ui.addMessage('Welcome to FOO branch' + originalTitle, 'notification');
         ui.addMessage('Use ? or type /? to display the FAQ and list of commands', 'notification');
 
         function initConnection() {
